@@ -20,12 +20,12 @@
         <h1 class="text-blue-600 font-bold text-4xl mb-1">Selamat Datang Di Aplikasi E-Point</h1>
         <p class="text-md mt-2 font-normal text-gray-600 mb-7">Silahkan login untuk melanjutkan</p>
         <div class="flex items-center border-2 py-2 px-3 rounded-md border-slate-300 mb-4">
-          <input class="pl-2 outline-none border-none bg-indigo-50" type="text" name="email" id="email" value="{{ old('email') }}" placeholder="Email Address" required />
+          <input class="pl-2 outline-none border-none bg-indigo-50 w-full" type="text" name="email" id="email" value="{{ old('email') }}" placeholder="Email Address" required />
         </div>
         <div class="flex items-center border-2 border-slate-300 py-2 px-3 rounded-md">
-          <input class="pl-2 outline-none border-none bg-indigo-50" type="password" name="password" id="password" placeholder="Password" />
+          <input class="pl-2 outline-none border-none w-full bg-indigo-50" type="password" name="password" id="password" placeholder="Password" />
         </div>
-        <input type="submit" value="Login" class="block w-full bg-indigo-600 mt-4 py-2 rounded-lg text-white font-semibold mb-2" required></input>
+        <input type="submit" value="Login" class="block w-full bg-blue-500 mt-4 py-2 rounded-lg text-white font-semibold mb-2" required></input>
         <span class="text-sm ml-2 cursor-pointer">Belum punya akun?  <a href="{{ route('register') }}" class="text-blue-600">Daftar disini</a></span>
       </form>
     </div>

@@ -40,7 +40,7 @@
         <div class="flex items-center border-2 border-slate-300 py-2 px-3 rounded-md">
           <input class="pl-2 outline-none border-none bg-indigo-50" type="password" name="password_confirmation" id="password_confirmation" placeholder="Confirm Password" />
         </div>
-        <input type="submit" value="Register" class="block w-full bg-indigo-600 mt-4 py-2 rounded-lg text-white font-semibold mb-2" required></input>
+        <input type="submit" value="Register" class="block w-full bg-blue-500 mt-4 py-2 rounded-lg text-white font-semibold mb-2" required></input>
         <span class="text-sm ml-2 cursor-pointer">Sudah punya akun?  <a href="{{ route('login') }}" class="text-blue-600">Login disini</a></span>
       </form>
     </div>
